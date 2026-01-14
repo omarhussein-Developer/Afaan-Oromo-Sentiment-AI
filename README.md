@@ -1,14 +1,49 @@
+
 # Afaan-Oromo-Sentiment-AI
-"An AI-powered Sentiment Analysis tool for Afaan Oromo, built using Python and Machine Learning (Scikit-learn) to classify text as positive or negative."
-# Afaan Oromo Sentiment Analysis AI 🦁
 
-Piroojektiin kun meeshaa (tool) koodii Python fayyadamuun barreeffamni Afaan Oromoo tokko:
-* **Giddu-galeessa (Neutral)**
-* **Gaarii (Positive)** * **Hamaa (Negative)** ta'uu isaa adda baasudha.
+An AI-powered Sentiment Analysis tool for Afaan Oromo, built using Python and Machine Learning (Scikit-learn) to classify text into **Positive**, **Negative**, and **Neutral** sentiments.
 
-### Akkaataa Itti Fayyadaman:
-1. Koodii `sentiment_analysis.py` jedhu 'Run' godhi.
-2. Jecha ykn yaada Afaan Oromoo galchi.
-3. AI'n kun yaada kee ni xiinxala!
+## Afaan Oromo Sentiment Analysis AI 🦁
 
-**Hojii: @omarhussein-Developer** *EthioCoders irratti kan hojjetame.*
+Pirojektichi kun meeshaa (tool) AI kan Python fayyadamuun barreeffama Afaan Oromoo qoratee,
+yaada (sentiment) isaa adda baasuudha:
+- **Gaarii (Positive)**
+- **Hamaa (Negative)**
+- **Giddu-galeessa (Neutral)**
+
+## Features
+- Barreeffama Afaan Oromoo qorata
+- Sentiment sadii adda baasa: Positive, Negative, fi Neutral
+- Python fi Scikit-learn fayyadama
+- Bu’uura Machine Learning irratti hundaa’a
+- Barnoota fi qorannoo AI’f ni gargaara
+
+## Requirements
+- Python 3.8+
+- scikit-learn
+- pandas
+- numpy
+
+## Installation
+Repo kana clone godhi:
+
+git clone https://github.com/omarhussein-Developer/Afaan-Oromo-Sentiment-AI.git
+
+Gara folder seeni:
+
+cd Afaan-Oromo-Sentiment-AI
+
+Dependencies install godhi:
+
+pip install -r requirements.txt
+
+## Akkaataa Itti Fayyadaman
+1. Koodii `sentiment_analysis.py` fiigi:
+
+   python sentiment_analysis.py
+
+2. Barreeffama Afaan Oromoo galchi
+3. Sirni kun bu’aa sentiment siif deebisa
+
+## Example
+Input:
