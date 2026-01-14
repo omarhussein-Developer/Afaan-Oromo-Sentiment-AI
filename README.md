@@ -1,48 +1,27 @@
 # Afaan-Oromo-Sentiment-AI
 
-An AI-powered Sentiment Analysis tool for Afaan Oromo, built using Python and Machine Learning (Scikit-learn) to classify text into **Positive**, **Negative**, and **Neutral** sentiments.
+Description:
+Projektiin kun sentiment analysis Afaan Oromoo irratti xiyyeeffata — dataset ijaaru, model leenjisuu (Naive Bayes fi kan biraa), fi application (web/mobile) ijaaruu danda’a.
 
-## Afaan Oromo Sentiment Analysis AI 🦁
+Features:
+- Sample training script (sentiment_analysis.py)
+- CSV fallback fi model save/load (improved script)
+- Instructions akka data itti galchituu fi model itti leenjiistu
 
-Pirojektichi kun meeshaa (tool) AI kan Python fayyadamuun barreeffama Afaan Oromoo qoratee,
-yaada (sentiment) isaa adda baasuudha:
-- **Gaarii (Positive)**
-- **Hamaa (Negative)**
-- **Giddu-galeessa (Neutral)**
+Installation:
+1. Python 3.8+
+2. pip install -r requirements.txt
+3. Example: python sentiment_analysis_improved.py --csv data.csv --train-only
 
-## Features
-- Barreeffama Afaan Oromoo qorata
-- Sentiment sadii adda baasa: Positive, Negative, fi Neutral
-- Python fi Scikit-learn fayyadama
-- Bu’uura Machine Learning irratti hundaa’a
-- Barnoota fi qorannoo AI’f ni gargaara
+Usage:
+- Train: python sentiment_analysis_improved.py --csv path/to/data.csv
+- Predict: python sentiment_analysis_improved.py --predict "Ani hojii jaaladha"
 
-## Requirements
-- Python 3.8+
-- scikit-learn
-- pandas
-- numpy
+Future Work:
+- Sirna Afaan Oromoo fooyyessuu
+- Dataset bal’inaan dabaluu
+- Web Application (Flask ykn Streamlit) ijaaruu
+- Mobile App ijaaruuf hojjachuu
 
-## Installation
-Repo kana clone godhi:
-
-git clone https://github.com/omarhussein-Developer/Afaan-Oromo-Sentiment-AI.git
-
-Gara folder seeni:
-
-cd Afaan-Oromo-Sentiment-AI
-
-Dependencies install godhi:
-
-pip install -r requirements.txt
-
-## Akkaataa Itti Fayyadaman
-1. Koodii `sentiment_analysis.py` fiigi:
-
-   python sentiment_analysis.py
-
-2. Barreeffama Afaan Oromoo galchi
-3. Sirni kun bu’aa sentiment siif deebisa
-
-## Example
-Input:
+License:
+This project is licensed under the MIT License. See LICENSE for details.
