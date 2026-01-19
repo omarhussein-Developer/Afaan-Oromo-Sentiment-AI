@@ -1,3 +1,23 @@
+# Afaan-Oromo-Sentiment-AI 🦁
+
+Pirojeektiin kun miira (sentiment) barreeffama Afaan Oromoo xiinxaluuf kan ijaarame dha. Barreeffamni tokko "Gammachuu", "Gadda", yookiin "Giddu-galeessa" ta'uu isaa addaan baasa.
+
+## 🚀 Kaayyoo
+- Afaan Oromoo gama NLP (Natural Language Processing) kanaan guddisuu.
+- Miira hawaasni karaa miidiyaa hawaasummaa ibsatu addaan baasuu.
+
+## 🛠️ Tekinolojii Fayyadamne
+- **Afaan:** Python
+- **Libraries:** Scikit-learn, Pandas, NLTK
+- **Dataset:** Barreeffamoota miira adda addaa qaban
+
+## 📝 Akkaataa Itti Fayyadaman
+1. Repo kana `clone` godhadhu.
+2. `requirements.txt` install godhadhu.
+3. Script `main.py` jedhu irratti barreeffama kee galchi.
+
+## 💪 Hirmaannaa
+Yoo pirojeektii kana fooyyessuu barbaadde, 'Pull Request' erguu dandeessa!
 # Afaan-Oromo-Sentiment-AI
 
 An AI-powered Sentiment Analysis tool for Afaan Oromo, built using Python and Machine Learning (Scikit-learn) to classify text into **Positive**, **Negative**, and **Neutral** sentiments.
